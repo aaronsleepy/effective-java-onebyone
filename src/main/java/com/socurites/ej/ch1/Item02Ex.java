@@ -152,6 +152,7 @@ class Calzone extends Pizza {
 
     public Builder sauceInside() {
       sauceInside = false;
+      return this;
     }
 
 
