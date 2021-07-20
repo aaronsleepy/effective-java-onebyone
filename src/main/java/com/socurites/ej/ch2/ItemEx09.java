@@ -1,4 +1,4 @@
-package com.socurites.ej.ch1;
+package com.socurites.ej.ch2;
 
 import java.io.*;
 

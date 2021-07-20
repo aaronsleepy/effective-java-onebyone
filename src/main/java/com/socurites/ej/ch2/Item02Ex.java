@@ -1,10 +1,10 @@
-package com.socurites.ej.ch1;
+package com.socurites.ej.ch2;
 
 import java.util.EnumSet;
 import java.util.Objects;
 import java.util.Set;
-import static com.socurites.ej.ch1.NyPizza.Size.*;
-import static com.socurites.ej.ch1.Pizza.Topping.*;
+import static com.socurites.ej.ch2.NyPizza.Size.*;
+import static com.socurites.ej.ch2.Pizza.Topping.*;
 
 /**
  * 생성자에 매개변수가 많다면 빌더를 고려하라

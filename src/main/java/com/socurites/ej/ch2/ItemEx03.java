@@ -1,6 +1,4 @@
-package com.socurites.ej.ch1;
-
-import org.springframework.expression.spel.ast.Elvis;
+package com.socurites.ej.ch2;
 
 /**
  * private 생성자나 열거타입으로 싱글턴임을 보증하라
