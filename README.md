@@ -1,7 +1,7 @@
 # effective-java-onebyone
 * 하루에 1개씩
 
-## 핵심 기본 원칙: Clarity & SImplicity
+## 핵심 기본 원칙: Clarity & Simplicity
 * 컴포넌트는 사용자를 놀라게하는 동작을 해서는 안된다
   * 정해진 동작이나 예측할 수 있는 동작만 수행해야 한다
 * 컴포넌트는 가능한 한 작되, 그렇다고 너무 작아서는 안된다
