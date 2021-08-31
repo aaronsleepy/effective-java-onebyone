@@ -45,7 +45,7 @@
 
 ---
 ## 제네릭
-- [ ] 26.RAW 타입은 사용하지 말라 
+- [x] 26.RAW 타입은 사용하지 말라 (2021.08.31)
 - [ ] 비검사 경고를 제거하라
 - [ ] 28.배열보다는 리스트를 사용하라
 - [ ] 29.이왕이면 제네릭 타입으로 만들라
@@ -131,3 +131,22 @@
 - [ ]  88.readObjecft 메서드는 방어적으로 작성하라
 - [ ]  89.인스턴스 수를 통제해야 한다면 readResolve보다는 열거타입을 사용하라
 - [ ]  90.직렬화된 인스턴스 대신 직렬화 프록시 사용을 검토하라
+
+
+---
+
+#Generic Class 용어
+| 한글 용어 | 영문 용어 | 예시 | 아이템 |
+| ------------- | ------------- | ------------- | ------------- |
+| 로 타입 | raw type | List | 아이템26 |
+| 제네릭 타입 | generic type | List<E> | 아이템26, 29 |
+| 제네릭 메서드 | generic method | static <E> List<E> asList(E[] a) | 아이템30 |
+| 정규 타입 매개변수 | formal type parameter | E | 아이템26 |
+| 매개변수화 타입 | parameterized type | List<String> | 아이템26 |
+| 실제 타입 매개변수 | actual type parameter | String | 아이템26 |
+| 비한정적 와일드카드 타입 | unbounded wildcard type | List<?> | 아이템26 |
+| 한정적 와일드카드 타입 | bounded wildcard type | List<? extends Number> | 아이템31 |
+| 한정적 타입 매개변수 | bounded type parameter | <E extends Number> | 아이템29 |
+| 재귀적 타입 한정 | recursive type bound | <T extends Comparable<T>> | 아이템30 |
+| 타입 토큰 | type token | String.class | 아이템33 |
+
